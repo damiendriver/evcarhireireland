@@ -6,10 +6,24 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FFFFFF;
     color: #008080;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
 }
 
 h1 {
