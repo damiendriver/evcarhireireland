@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-color: #ffffff;
+  background-color: #02000D;
   color: #008080;
   margin: 3px;
   font-family: Arial, sans-serif;
@@ -12,12 +12,12 @@ li {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #02000D;
   font-size: 1rem;
 }
 a:hover {
-  background-color: #ffffff;
-  color: #008080;
+  background-color: #02000D;
+  color: #22F291;
 }
 
 header {
@@ -34,8 +34,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #008080;
-  color: #ffffff;
+  background-color: #22F291;
+  color: #02000D;
 }
 
 .navbar .name {
@@ -69,7 +69,7 @@ header {
   top: 80px;
   height: 3px;
   width: 300px;
-  background: #008080;
+  background: #22F291;
   backdrop-filter: blur(15px);
   border-radius: 3px;
   overflow: hidden;
