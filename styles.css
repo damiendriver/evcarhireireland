@@ -14,10 +14,12 @@ a {
   text-decoration: none;
   color: #02000D;
   font-size: 1rem;
+  font-weight: bold;
 }
 a:hover {
   background-color: #FFFFFF;
-  color: #22F291;
+  color: #02000D;
+  font-weight: bold;
 }
 
 header {
