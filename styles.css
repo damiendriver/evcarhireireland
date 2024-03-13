@@ -25,6 +25,8 @@ a:hover {
 header {
   position: relative;
   padding: 3px 2rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .navbar {
