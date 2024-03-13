@@ -2,7 +2,7 @@ body {
   height: 100vh;
   background-color: #FFFFFF;
   color: #02000D;
-  margin: 3px;
+  margin: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -16,6 +16,7 @@ a {
   font-size: 1rem;
   font-weight: bold;
 }
+
 a:hover {
   background-color: #FFFFFF;
   color: #02000D;
@@ -24,22 +25,16 @@ a:hover {
 
 header {
   position: relative;
-  padding: 3px 2rem;
   width: 100%;
-  box-sizing: border-box;
+  padding: 3px 2rem;
+  background-color: #22F291;
+  color: #02000D;
 }
 
 .navbar {
-  width: 100%;
-  height: 80px;
-  max-width: 100%;
-  margin: auto;
-  padding: 5px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  background-color: #22F291;
-  color: #02000D;
+  align-items: center;
 }
 
 .navbar .name {
@@ -106,15 +101,11 @@ header {
 
 .ev-plug-image {
   width: 100%;
-  margin: auto;
-  padding: 3px 2rem;
-  display: flex;
-  align-items: center;
+  height: auto;
+  display: block;
 }
 
-
-/* responsive design*/
-
+/* responsive design */
 @media (max-width: 900px) {
   .navbar .links {
     display: none;
@@ -123,6 +114,7 @@ header {
   .navbar .button {
     display: block;
   }
+
   .dropdown_menu {
     display: block;
   }
@@ -134,3 +126,4 @@ header {
     width: unset;
   }
 }
+
