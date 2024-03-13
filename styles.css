@@ -103,6 +103,7 @@ header {
 }
 
 .ev-plug-image {
+  padding: 3px 2rem;
   width: 100%;
   margin: auto;
   display: flex;
